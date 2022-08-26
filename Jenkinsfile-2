@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage('pipeline-2'){
+            steps{
+                echo 'This Job is from Pipeline-2'
+            }
+        }
+    }
+}
